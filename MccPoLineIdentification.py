@@ -11,7 +11,7 @@ app=FastAPI()
 
 @app.get('/')
 def index():
-     return {'message':'Welcome'}
+     return {'message':'Welcome to MccDatamatchingApplication'}
 
 
 @app.post('/Predict')
